@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "774182034079",
+    "project_id": "searchclone-6c588",
+    "storage_bucket": "searchclone-6c588.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774182034079:android:9d68962b488047ea36a0aa",
+        "android_client_info": {
+          "package_name": "com.googlesearchclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774182034079-sic9l7dm1md62ppq1hdtd4b52j2sf8kd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.googlesearchclone",
+            "certificate_hash": "c500857a5b53a04b7f48617b967b93ef3d9e40b9"
+          }
+        },
+        {
+          "client_id": "774182034079-c35uli911f9oa7irbtktf19eful5u0ko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNiaqmR42XmfYFWyHjCPWGUCHMuJ-Sf7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774182034079-c35uli911f9oa7irbtktf19eful5u0ko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

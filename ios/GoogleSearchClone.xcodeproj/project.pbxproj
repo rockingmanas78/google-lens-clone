@@ -12,9 +12,15 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		6573F2A1E1A04D49A2FBBFAC /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F82148D7F617437D84C38BE3 /* OpenSans-Bold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-GoogleSearchClone-GoogleSearchCloneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-GoogleSearchClone-GoogleSearchCloneTests.a */; };
 		78ECDCBE10C8B778558FC357 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AC732DCB33F84D4EACA286DC /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 473262FFB39C4A599D4F0DEF /* OpenSans-Medium.ttf */; };
+		B2333E7644FC444783117C54 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B35E9E07FB84778882A28F9 /* OpenSans-ExtraBold.ttf */; };
+		F178F2D50EF640E8BBCF278D /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0713C377943F446E9E73768F /* OpenSans-Regular.ttf */; };
+		F1D4BEF7584C4E088D9C8004 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03FA1F0FA1D94EBD93A4E8EE /* OpenSans-SemiBold.ttf */; };
+		FF173A77AE6F4A238FF94460 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D6FAB62E87F4CF18650BF83 /* OpenSans-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +37,8 @@
 		00E356EE1AD99517003FC87E /* GoogleSearchCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleSearchCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* GoogleSearchCloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleSearchCloneTests.m; sourceTree = "<group>"; };
+		03FA1F0FA1D94EBD93A4E8EE /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../src/assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		0713C377943F446E9E73768F /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* GoogleSearchClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSearchClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GoogleSearchClone/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = GoogleSearchClone/AppDelegate.mm; sourceTree = "<group>"; };
@@ -39,13 +47,17 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GoogleSearchClone/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = GoogleSearchClone/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-GoogleSearchClone-GoogleSearchCloneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleSearchClone-GoogleSearchCloneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6FAB62E87F4CF18650BF83 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../src/assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-GoogleSearchClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSearchClone.debug.xcconfig"; path = "Target Support Files/Pods-GoogleSearchClone/Pods-GoogleSearchClone.debug.xcconfig"; sourceTree = "<group>"; };
+		473262FFB39C4A599D4F0DEF /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Medium.ttf"; path = "../src/assets/fonts/OpenSans-Medium.ttf"; sourceTree = "<group>"; };
+		4B35E9E07FB84778882A28F9 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../src/assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-GoogleSearchClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSearchClone.release.xcconfig"; path = "Target Support Files/Pods-GoogleSearchClone/Pods-GoogleSearchClone.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-GoogleSearchClone-GoogleSearchCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSearchClone-GoogleSearchCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleSearchClone-GoogleSearchCloneTests/Pods-GoogleSearchClone-GoogleSearchCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-GoogleSearchClone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleSearchClone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GoogleSearchClone/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-GoogleSearchClone-GoogleSearchCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSearchClone-GoogleSearchCloneTests.release.xcconfig"; path = "Target Support Files/Pods-GoogleSearchClone-GoogleSearchCloneTests/Pods-GoogleSearchClone-GoogleSearchCloneTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F82148D7F617437D84C38BE3 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../src/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2DE05C2676EB494199EF008C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F82148D7F617437D84C38BE3 /* OpenSans-Bold.ttf */,
+				4B35E9E07FB84778882A28F9 /* OpenSans-ExtraBold.ttf */,
+				2D6FAB62E87F4CF18650BF83 /* OpenSans-Light.ttf */,
+				473262FFB39C4A599D4F0DEF /* OpenSans-Medium.ttf */,
+				0713C377943F446E9E73768F /* OpenSans-Regular.ttf */,
+				03FA1F0FA1D94EBD93A4E8EE /* OpenSans-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +151,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				2DE05C2676EB494199EF008C /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -247,6 +274,12 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				78ECDCBE10C8B778558FC357 /* PrivacyInfo.xcprivacy in Resources */,
+				6573F2A1E1A04D49A2FBBFAC /* OpenSans-Bold.ttf in Resources */,
+				B2333E7644FC444783117C54 /* OpenSans-ExtraBold.ttf in Resources */,
+				FF173A77AE6F4A238FF94460 /* OpenSans-Light.ttf in Resources */,
+				AC732DCB33F84D4EACA286DC /* OpenSans-Medium.ttf in Resources */,
+				F178F2D50EF640E8BBCF278D /* OpenSans-Regular.ttf in Resources */,
+				F1D4BEF7584C4E088D9C8004 /* OpenSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

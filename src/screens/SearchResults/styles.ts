@@ -1,0 +1,171 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#1E1E1E',
+  },
+  searchBar: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#2E2E2E',
+    paddingHorizontal: 16,
+    paddingVertical: 6,
+    borderRadius: 40,
+    margin: 12,
+  },
+  imagePreview: {
+    width: 60,
+    height: 45,
+    borderRadius: 8,
+    overflow: 'hidden',
+    marginHorizontal: 8,
+  },
+  logo: {
+    width: 24,
+    height: 24,
+    objectFit: 'contain',
+    marginRight: 8
+  },
+  previewImage: {
+    width: '100%',
+    height: '100%',
+  },
+  searchInput: {
+    flex: 1,
+    color: '#fff',
+    fontSize: 18,
+    textAlignVertical: 'center',
+    height: 40,
+    paddingHorizontal: 8,
+    paddingVertical: 0,
+    includeFontPadding: false,
+    lineHeight: 20,
+  },
+  profile: {
+    borderLeftWidth: 1,
+    borderLeftColor: '#666',
+  },
+  profileIcon: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: '#78909c',
+    justifyContent: 'center',
+    borderColor: '#bbb',
+    borderWidth: 0.5,
+    alignItems: 'center',
+    marginLeft: 8,
+  },
+  profileText: {
+    color: '#fff',
+    fontSize: 20,
+  },
+  tabsWrapper: {
+    borderBottomColor: '#2c2c2c',
+    borderBottomWidth: 1,
+  },
+  tabsContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 8,
+    paddingHorizontal: 8,
+    gap: 12,
+  },
+  tabItem: {
+    alignSelf: 'center',
+    alignItems: 'center',
+    marginHorizontal: 8,
+  },
+  activeTabItem: {
+    paddingVertical: 4,
+    borderBottomColor: '#fff',
+    borderBottomWidth: 2,
+  },
+  tabText: {
+    color: '#ccc',
+    fontSize: 16,
+    fontFamily: 'OpenSans-Medium',
+  },
+  activeTabText: {
+    color: '#fff',
+  },
+  resultsInfo: {
+    paddingVertical: 16,
+    paddingHorizontal: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: '#444',
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+    gap: 8,
+    alignItems: 'center',
+  },
+  resultsInfoText: {
+    color: '#bdc1c6',
+    fontSize: 18,
+    textAlign: 'center',
+  },
+  resultsGrid: {
+    paddingHorizontal: 8,
+  },
+  imageContainer: {
+    flex: 1,
+    margin: 8,
+    backgroundColor: '#2E2E2E',
+    borderRadius: 8,
+    overflow: 'hidden',
+  },
+  image: {
+    width: '100%',
+    height: undefined,
+    aspectRatio: 1,
+  },
+  sourceText: {
+    color: '#888',
+    fontSize: 12,
+    marginVertical: 4,
+    marginLeft: 8,
+  },
+  descriptionText: {
+    color: '#fff',
+    fontSize: 14,
+    marginHorizontal: 8,
+  },
+  priceText: {
+    color: '#8cb3ee',
+    fontSize: 12,
+    margin: 8,
+  },
+  bottomBar: {
+    position: 'absolute',
+    bottom: 8,
+    left: 14,
+    right: 14,
+    backgroundColor: '#202124',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingHorizontal: 24,
+    paddingVertical: 16,
+    borderRadius: 32,
+    zIndex: 100,
+  },
+  bottomText: {
+    color: '#9aa0a6',
+    fontSize: 16,
+    fontFamily: 'OpenSans-Medium',
+  },
+  bottomActions: {
+    flexDirection: 'row',
+    gap: 8,
+  },
+  actionText: {
+    color: '#8cb3ee',
+    fontSize: 16,
+    fontFamily: 'OpenSans-Medium',
+  },
+  closeText: {
+    color: '#fff',
+    fontSize: 18,
+  },
+});
